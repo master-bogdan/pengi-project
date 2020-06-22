@@ -1,0 +1,88 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    &-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    &-item {
+        display: none;
+        // float: left;
+        width: 100%;
+        margin-right: -100%;
+        backface-visibility: hidden;
+        text-align: right;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        &_title {
+            font-size: 42px;
+            line-height: 48px;
+            font-weight: 900;
+            color: #ffffff;
+        }
+        &_subtitle {
+            font-weight: 300;
+            font-size: 24px;
+            span {
+                font-size: 24px;
+                line-height: 30px;
+                font-weight: 400;
+                color: #ffffff;
+            }
+        }
+    }
+    &-caption {
+        position: absolute;
+        width: 50%;
+        top: 15%;
+        left: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: left;
+        &_btn {
+            margin-top: 20px;
+            width: 12%;
+            height: 60px;
+            border: 2.0px solid #ffffff;
+            font-size: 1.2vw;
+            font-weight: 900;
+            color: #ffffff;
+            background-color: transparent;
+        }
+    }
+    &-indicators {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        margin-right: 15%;
+        margin-left: 15%;
+        list-style: none;
+        li {
+            box-sizing: content-box;
+            width: 10px;
+            height: 10px;
+            margin-right: 3px;
+            margin-left: 3px;
+            text-indent: -999px;
+            cursor: pointer;
+            background-color: transparent;
+            background-clip: padding-box;
+            border: 1px solid white;
+            border-radius: 100%;
+        }
+    }
+    .active {
+        display: block;
+    }
+    .i_active {
+        background: white;
+    }
+}

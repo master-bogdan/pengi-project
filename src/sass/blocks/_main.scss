@@ -1,0 +1,25 @@
+.main {
+    padding-top: 35px;
+    background: url(../../img/bg/main_bg.jpg) fixed (center/cover) no-repeat;
+    height: 100%;
+    &__logo-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav {
+        width: 45%;
+    }
+    .menu {
+        display: flex;
+        text-transform: uppercase;
+        justify-content: space-between;
+        list-style-type: none;
+        font-size: 13px;
+        line-height: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+        &__link {
+            color: #ffffff;
+        }
+    }
+}
