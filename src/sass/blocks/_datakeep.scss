@@ -1,0 +1,47 @@
+.datakeep {
+    padding-top: 75px;
+    min-height: 580px;
+    background: url(../../img/cloudstore.png) left fixed no-repeat, 
+                url(../../img/hosting.png) right fixed no-repeat;
+    background-size: 50% 80%, 50% 80%;
+    .flex {
+        justify-content: space-between;
+    }
+    &__heading {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 900;
+        color: #ffffff;
+        margin-bottom: 85px;
+    }
+    &__item {
+        text-align: left;
+        padding: 38px 35px;
+        display: block;
+        width: 45%;
+        background: linear-gradient(rgba($color: #00c2f0, $alpha: 0.3),rgba($color: #00c2f0, $alpha: 0.3));
+        background-size: 35% 80%;
+        background-repeat: no-repeat;
+        background-position: left;
+        &-title {
+            font-size: 30px;
+            line-height: 26px;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #ffffff;
+            padding-bottom: 28px;
+        }
+        &-descr {
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 300;
+            color: #ffffff;
+        }
+    }
+    .align-right {
+        text-align: right;
+        background-position: right;
+    }
+}

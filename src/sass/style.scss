@@ -12,6 +12,11 @@
     margin: 0 auto;
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @import "blocks/header";
 @import "blocks/main";
 @import "blocks/slider";
@@ -19,6 +24,9 @@
 @import "blocks/withus";
 @import "blocks/tabs";
 @import "blocks/advantages";
+@import "blocks/datakeep";
+@import "blocks/access";
+@import "blocks/footer";
 
 @import "base/variables";
 @import "base/animation";

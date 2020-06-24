@@ -1,0 +1,44 @@
+.footer {
+    padding: 40px 0;
+    background: #0082a1;
+    .flex {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        border-bottom: 2px solid #2695af;
+    }
+    &__item {
+        color: #ffffff; 
+        img {
+            padding: 20px 0;
+        }
+        &-about {
+            width: 35%;
+        }
+        &-title {
+            font-size: 16px;
+            line-height: 19px;
+            font-weight: 700;
+        }
+        &-descr {
+            font-size: 13px;
+            font-weight: 300;
+        }
+    }
+    &__list {
+        list-style-type: none;
+        &-link {
+            color: #ffffff;
+            font-size: 13px;
+            line-height: 17px;
+            font-weight: 300;
+        }
+    }
+    &__copyright {
+        margin-top: 30px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+    }
+}
