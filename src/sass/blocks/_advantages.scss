@@ -1,0 +1,47 @@
+.advantages {
+    padding: 80px 0;
+    .container-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__heading {
+        text-align: center;
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 900;
+        color: #393939;
+        padding-bottom: 44px;
+    }
+    &__item {
+        padding: 100px 0;
+        width: 49%;
+        &-descr {
+            height: 156px;
+            text-align: center;
+            padding: 40px 0;
+            font-size: 22px;
+            line-height: 26px;
+            font-weight: 400;
+            color: #ffffff;
+            background: rgba($color: #000000, $alpha: 0.2);
+        }
+    }
+    #clock {
+        background: url(../img/clock.png) center (center/cover) no-repeat;
+    }
+    #hand {
+        background: url(../img/hand.png) center (center/cover) no-repeat;
+    }
+    #globus {
+        background: url(../img/globus.png) center (center/cover) no-repeat;
+    }
+    #phone {
+        background: url(../img/phone.png) center (center/cover) no-repeat;
+    }
+    #man {
+        background: url(../img/businessman.png) center (center/cover) no-repeat;
+    }
+    #card {
+        background: url(../img/creditcard.png) center (center/cover) no-repeat;
+    }
+}
