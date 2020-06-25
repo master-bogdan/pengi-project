@@ -41,10 +41,76 @@
 }
 
 @media screen and (max-width: 680px) {
+    .main__logo-nav {
+        justify-content: space-around;
+        align-items: center;
+    }
     .main {
         nav {
-            display: none;
+            // display: none;
             width: 60%;
+            .menu {
+                position: fixed;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                padding-left: 15px;
+                list-style: none;
+                top: 0;
+                left: 0;
+                left: -100%;
+                width: 60%;
+                background-color: rgba(0,0,0, 1);
+                height: 100vh;
+                transition: 0.6s all;
+                z-index: 999;
+                &__active {
+                    left: 0;
+                }
+                &__link {
+                    font-size: 21px;
+                    font-weight: 400;
+                    color: #ffffff;
+                    
+                }
+            }
+        }
+        .hamburger {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            display: block;
+            width: 40px;
+            height: 30px;
+            // border: 2px solid white;
+            margin-bottom: 2px;
+            text-align: center;
+            font-size: 12px;
+            color: black;
+            font-weight: 900;
+            span {
+                display: block; 
+                height: 5px;
+                width: 100%;
+                background-color: black; 
+                margin-bottom: 4px;
+                transition: 0.5s all
+            }
+            &_active {
+                span {
+                    margin-top: 8px;
+                    margin-bottom: -12px; 
+                    &:nth-child(1) {
+                        transform: translateY(5px) rotate(-45deg);
+                    }
+                    &:nth-child(2) {
+                        display: none;
+                    }
+                    &:nth-child(3) {
+                        transform: translateY(5px) rotate(45deg);
+                    }
+                }
+            }
         }
     }
     .carousel-caption {
@@ -82,7 +148,7 @@
         width: 80%;
     }
     .footer__item-about {
-        width: 80%;
+        width: 100%;
         order: 1;
     }
     .footer__list {
