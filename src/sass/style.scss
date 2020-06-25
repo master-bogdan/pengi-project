@@ -15,6 +15,7 @@
 .flex {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 @import "blocks/header";

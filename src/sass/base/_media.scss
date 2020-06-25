@@ -3,13 +3,129 @@
 }
 	
 @media screen and (max-width: 991px) {
-    
+    .header__item-tel {
+        font-size: 9px;
+    }
+    .container {
+        padding: 0 1%;
+    }
+    .main {
+        nav {
+            width: 60%;
+        }
+    }
+    .carousel-item {
+        img {
+            visibility: hidden;
+            max-width: 50%;
+        }
+    }
+    .carousel-caption {
+        width: 70%;
+        text-align: center;
+        left: 15%;
+    }
+    .tabs {
+        padding: 79px 0 61px 0;
+        background: url(../img/bg/tabs_bg.jpg) fixed right no-repeat;
+        &__nav {
+            width: 100%;
+        }
+    }
 }
 	
 @media screen and (max-width: 767px) {
-    
+    .header {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .main {
+        nav {
+            display: none;
+            width: 60%;
+        }
+    }
+    .carousel-caption {
+        top: 10%;
+    }
+    .carousel-item_title {
+        font-size: 28px;
+    }
+    .carousel-item_subtitle {
+        font-size: 18px;
+    }
+    .withus__block {
+        flex-wrap: wrap;
+        justify-content: center;
+        &-item {
+            width: 51%;
+        }
+    }
+    .tabs__nav {
+        display: none;
+    }
+    .advantages__item {
+        width: 80%;
+    }
+    .datakeep .flex {
+        justify-content: center;
+    }
+    .datakeep__item {
+        width: 51%;
+    }
+    .footer .flex {
+        flex-wrap: wrap;
+    }
+    .footer__item {
+        width: 80%;
+    }
+    .footer__item-about {
+        width: 80%;
+        order: 1;
+    }
+    .footer__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .modules {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .carousel-caption {
+        top: 5%;
+    }
+    .carousel-item_title {
+        font-size: 24px;
+    }
+    .carousel-item_subtitle {
+        font-size: 15px;
+    }
 }
 	
 @media screen and (max-width: 480px) {
-    
+    .carousel-caption {
+        top: 0;
+    }
+    .carousel-item_title {
+        line-height: 15px;
+        font-size: 20px;
+    }
+    .carousel-item_subtitle {
+        font-size: 13px;
+        span {
+            font-size: 20px;
+        }
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    .advantages__item {
+        width: 100%;
+    }
 }
