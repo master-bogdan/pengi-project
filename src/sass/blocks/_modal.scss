@@ -1,0 +1,38 @@
+.overlay {
+    display: none;
+    background: rgba($color: #000000, $alpha: 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    &_active {
+        display: block;
+        animation: fadeIn 1s;
+    }
+    .modal {
+        padding: 5% 8%;
+        background: orange;
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        width: 50%;
+        #modal_close {
+            font-size: 40px;
+            position: absolute;
+            top: 0;
+            right: 40px;
+            cursor: pointer;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            input {
+                margin-bottom: 25px;
+            }
+        }
+        .btn {
+            align-self: center;
+        }
+    }
+}
+

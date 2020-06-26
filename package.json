@@ -23,6 +23,7 @@
     "webpack": "^4.43.0"
   },
   "dependencies": {
+    "core-js": "^3.6.5",
     "gulp": "^4.0.2"
   },
   "browserslist": [
