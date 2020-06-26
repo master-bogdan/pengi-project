@@ -6,3 +6,21 @@
         opacity: 1;
     }
 }
+
+@keyframes fromLeft {
+    from {
+        margin-left: -200%;
+    }
+    to {
+        margin: 0;
+    }
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}

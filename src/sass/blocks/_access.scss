@@ -3,6 +3,10 @@
     text-align: center;
     img {
         margin-bottom: 70px;
+        animation: scale 1s ease infinite alternate;
+        &:hover {
+            cursor: pointer;
+        }
     }
     &__descr {
         font-size: 30px;
