@@ -11,7 +11,8 @@
     }
     .modal {
         padding: 5% 8%;
-        background: orange;
+        background: linear-gradient(to bottom, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         position: absolute;
         top: 20%;
         left: 25%;

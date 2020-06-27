@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const slides = document.querySelectorAll('.carousel-item');
     const indicators = document.querySelectorAll('[data-target="Indicators"]');
     let currentSlide = 0;
-    // let slideInterval = setInterval(slide, 5000);
+    let slideInterval = setInterval(slide, 5000);
 
     function slide() {
         slides[currentSlide].classList.remove('active');
@@ -52,4 +52,25 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Animations
+    const withUsBlocks = document.querySelectorAll('.withus__block-item');
+    const textShow = document.querySelectorAll('.advantages__item-descr');
+
+    function isVisible(elem) {
+        return elem.getBoundingClientRect().top;
+    }
+
+    window.addEventListener('scroll', () => {
+        withUsBlocks.forEach(item => {
+            if (isVisible(item) <= 450) {
+                item.classList.add('fromLeft');
+            }
+        });
+
+        textShow.forEach(item => {
+            if (isVisible(item) <= 450) {
+                item.classList.add('text_show');
+            }
+        });
+    });
 });

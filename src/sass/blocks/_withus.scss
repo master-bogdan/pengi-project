@@ -14,7 +14,7 @@
             background-size: 25% 1px, 25% 1px;
             background-repeat: no-repeat, no-repeat;
             background-position: left top, right top;
-            animation: fromLeft 6s;
+            margin-left: -200%;
         }
         &-descr {
             position: relative;
@@ -31,8 +31,11 @@
         }
     }
     &__divider {
+        width: 80%;
+        margin: 0 auto;
         text-align: center;
         padding: 50px 0 35px 0;
+        animation: scale 1s ease infinite alternate;
         h2 {
             margin-top: 30px;
             font-size: 48.1px;
