@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 24" width="31" height="24">
+	<defs>
+		<image width="31" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAYBAMAAADwhTuyAAAAAXNSR0IB2cksfwAAAB5QTFRFAAAAFF63Fl+3AFu7AFPHepVh/9wA/9UA/88L/84MmGVkJwAAAAp0Uk5TAP///////////36JFFYAAAA8SURBVHicY2AgCBiVkIECAwOzMTIwGDABFhdk4MDAwBqKDAIYGNjSkEECAwN7OTIoGDABjpnIYAJmoAMA+51ii3MO4isAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Шапка">
+		<use id="Layer 5" href="#img1" x="0" y="0" />
+	</g>
+</svg>
