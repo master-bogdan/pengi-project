@@ -1,6 +1,6 @@
 # :cyclone: Pengi project
   
-HTML5 / CSS3 / JS
+HTML5 / CSS3 / JS / SCSS / Gulp / Webpack
 
 ---
 
