@@ -1,6 +1,7 @@
 # :cyclone: Pengi project
   
-HTML5 / CSS3 / JS / SCSS / Gulp / Webpack
+Technologies - HTML5 / CSS3 / JS / SCSS / Gulp / Webpack
+[[DEMO](https://master-bogdan.github.io/pengi-project/)]
 
 ---
 
@@ -8,7 +9,7 @@ HTML5 / CSS3 / JS / SCSS / Gulp / Webpack
 - :arrow_right: Adaptive / Responsive Layout
 - :arrow_right: CSS3 Animation what shows when you scroll page
 - :arrow_right: CSS3 Parallax effect
-- :arrow_right: JS native slider
+- :arrow_right: JS Native slider
 - :arrow_right: JS Mobile hamburger menu with no window scroll
 - :arrow_right: JS Modal form
 
